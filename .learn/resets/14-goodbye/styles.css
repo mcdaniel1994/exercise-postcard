@@ -1,0 +1,98 @@
+/* ==== Global Fix for Width + Padding ==== */
+* {
+	box-sizing: border-box;
+}
+
+/* ==== Page Layout ==== */
+body {
+	background: black;
+	font-family: "Comic Sans MS", cursive;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ==== Text ==== */
+p {
+	color: black;
+	font-size: 15px;
+	margin: 8px 0;
+	line-height: 1.4;
+}
+
+/* ==== Card ==== */
+.postcard {
+	background: white;
+	width: 450px;
+	height: 320px;
+	padding: 20px;
+	font-family: "Handlee", cursive;
+	font-weight: bold;
+}
+
+/* ==== Header ==== */
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	font-size: 32px;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+}
+
+/* ==== Body ==== */
+.postcard-body {
+	display: flex;
+	gap: 30px;
+}
+
+/* ==== Left Side ==== */
+.body-left {
+	width: 50%;
+}
+
+/* ==== Right Side ==== */
+.body-right {
+	width: 50%;
+}
+
+/* ==== Form Inputs ==== */
+input {
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	margin-bottom: 18px;
+	font-size: 14px;
+	font-family: "Handlee", cursive;
+	font-weight: bold;
+	padding: 3px 0;
+}
+
+/* ==== Footer ==== */
+.postcard-footer {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* ==== Button ==== */
+button {
+	font-family: "Handlee", cursive;
+	border: 1px solid gray;
+	background: lightgray;
+	padding: 8px 25px;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: bold;
+	cursor: pointer;
+}
