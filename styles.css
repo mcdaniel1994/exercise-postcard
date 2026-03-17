@@ -1,4 +1,4 @@
-/* ==== Global Fix for Width + Padding ==== */
+/* ==== For Debugging, i can add red with a boarder ==== */
 * {
 	box-sizing: border-box;
 }
